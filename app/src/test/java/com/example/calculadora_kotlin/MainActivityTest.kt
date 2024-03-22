@@ -36,12 +36,9 @@ class MainActivityTest {
         numero1.text = "5"
         numero2.text = "3"
 
-        // Simula el clic en el botón de suma
         sumar.performClick()
 
-        // Verifica que el resultado sea el esperado
         assertEquals("8", resultado.text.toString())
     }
 
-    // Agrega más pruebas para otros casos, como suma con números negativos, con decimales, etc.
 }
